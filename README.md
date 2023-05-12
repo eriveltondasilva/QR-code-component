@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-vzWX5HuQu_)
--   Live Site URL: [Add live site URL here](https://qr-code-component-omega-gilt.vercel.app/)
+-   Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-vzWX5HuQu_](https://www.frontendmentor.io/solutions/qr-code-component-vzWX5HuQu_)
+-   Live Site URL: [https://qr-code-component-omega-gilt.vercel.app/](https://qr-code-component-omega-gilt.vercel.app/)
 
 ## My process
 
