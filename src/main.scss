@@ -1,20 +1,20 @@
+// imports das fonts
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 :root {
-    /* color */
+    // color
     --color-background: hsl(212, 45%, 89%);
     --color-surface: hsl(0, 0%, 100%);
     --color-title: hsl(220, 15%, 55%);
     --color-paragraph: hsl(218, 44%, 22%);
 
-    /* fonts */
+    // fonts
     --fonts: Verdana, Arial, Helvetica, sans-serif;
     --font-parisienne: "Outfit", var(--fonts);
 
+    // declaration
     font-size: 15px;
-
 }
-
 
 body {
     font-family: var(--font-parisienne);
