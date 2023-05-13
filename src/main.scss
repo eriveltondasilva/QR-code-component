@@ -48,14 +48,14 @@ img {
 
     &__title {
         margin-top: 15px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 700;
         color: $color-title;
     }
     &__body {
-        padding: 0 15px;
+        padding: 0 4px;
         margin: 15px 0;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: $color-paragraph;
     }
 }
