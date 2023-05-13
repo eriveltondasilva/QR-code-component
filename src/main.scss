@@ -1,24 +1,27 @@
 // imports das fonts
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-:root {
-    // color
-    --color-background: hsl(212, 45%, 89%);
-    --color-surface: hsl(0, 0%, 100%);
-    --color-paragraph: hsl(220, 15%, 55%);
-    --color-title: hsl(218, 44%, 22%);
+// color
+$color-background: hsl(212, 45%, 89%);
+$color-surface: hsl(0, 0%, 100%);
+$color-paragraph: hsl(220, 15%, 55%);
+$color-title: hsl(218, 44%, 22%);
 
-    // fonts
-    --fonts: Verdana, Arial, Helvetica, sans-serif;
-    --font-outfit: "Outfit", var(--fonts);
+// fonts
+$fonts: Verdana, Arial, Helvetica, sans-serif;
+$font-outfit: "Outfit", $fonts;
 
-    // declaration
+* {
+    box-sizing: border-box;
+}
+
+html {
     font-size: 15px;
 }
 
 body {
-    background-color: var(--color-background);
-    font-family: var(--font-outfit);
+    background-color: $color-background;
+    font-family: $font-outfit;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -28,7 +31,7 @@ body {
 }
 
 main {
-    background-color: var(--color-surface);
+    background-color: $color-surface;
     box-shadow: 2px 2px 10px rgba(#000000, 0.1);
 }
 
@@ -47,13 +50,13 @@ img {
         margin-top: 15px;
         font-size: 1.3rem;
         font-weight: 700;
-        color: var(--color-title);
+        color: $color-title;
     }
     &__body {
         padding: 0 15px;
         margin: 15px 0;
         font-size: 0.9rem;
-        color: var(--color-paragraph);
+        color: $color-paragraph;
     }
 }
 
